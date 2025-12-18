@@ -1,0 +1,4 @@
+baseURL = 'https://nick-moyer.github.io/'
+languageCode = 'en-us'
+title = 'Nick Moyer'
+theme = 'ananke'
