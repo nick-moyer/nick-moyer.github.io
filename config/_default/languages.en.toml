@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Nick Moyer | Software Engineer"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo_dark.png"
+secondaryLogo = "logo_light.png"
+
+["params.author"]
+name = "Nick Moyer"
+image = "profile.png"
+headline = "Backend Engineer | Python, Node, Go, APIs, Data & AI | Mission-driven and always curious"
+bio = "Mission-driven Software Engineer specializing in intelligent backend architecture and AI pipeline integration. Thrives in fast-paced startups, applying first-principles thinking to build resilient, high-performance systems that handle complex EHR (FHIR) data. Drives continuous optimization for maximum efficiency and scale, prioritizing rigorous engineering standards over basic functionality."
+links = [
+    { github = "https://github.com/nick-moyer" },
+    { linkedin = "https://www.linkedin.com/in/npmoyer" }
+]
