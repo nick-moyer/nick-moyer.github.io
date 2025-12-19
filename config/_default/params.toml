@@ -22,9 +22,6 @@ verification = { }
 rssnext = { }
 advertisement = { }
 
-[theme]
-favicon = "favicon.ico"
-
 [header]
 layout = "basic"
 logo = "logo.png"
