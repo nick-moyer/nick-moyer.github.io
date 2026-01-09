@@ -12,7 +12,7 @@ dateFormat = "2 January 2006"
 logo = "logo_dark.png"
 secondaryLogo = "logo_light.png"
 
-["params.author"]
+[params.author]
 name = "Nick Moyer"
 image = "profile.png"
 headline = "Backend Software Engineer | Python, Node, Go, APIs, Data & AI | Mission-driven and always curious"
