@@ -5,24 +5,10 @@ showWordCount: false
 showReadingTime: false
 ---
 
-### My Mindset
+I approach software engineering by breaking problems down to their fundamentals, understanding constraints, and making deliberate tradeoffs. Code that works is expected; what I care about is whether it’s understandable, maintainable, and appropriate for the problem it’s solving.
 
-> I approach software engineering with a physicist’s mindset: deconstruct problems to first principles, understand the constraints, and build the most efficient solution possible.
+I tend to dig into the “why” behind systems and tools so I can make better decisions and avoid fragile solutions, but I’m also pragmatic. I value shipping, iteration, and aligning technical choices with business needs rather than optimizing in isolation.
 
-For me, code that "just works" is the **baseline, not the ceiling**. I am driven by a curiosity that digs deep into the "why" and "how" of every stack to ensure reliability, but I always balance technical optimization with delivery and business value.
+I’m currently deepening my experience with Go, Python, data engineering, and applied AI, with a focus on building reliable backend systems that support real data and real users. I’m especially interested in work that sits at the intersection of infrastructure and data, where design decisions have long-term impact.
 
----
-
-### Engineering Experience
-
-As a Backend Engineer, I combine this deep analytical background with over seven years of practical experience building robust, scalable systems. My expertise lies in **Python, Node.js, and Cloud Architecture (AWS/GCP)**, but I am a firm believer in continuous evolution.
-
-Technology moves fast, and I move with it. I am currently expanding my technical depth in **Go, Data Engineering, and AI**, bridging the gap between backend infrastructure and intelligent data systems.
-
----
-
-### Mission & Impact
-
-Beyond the code, I am defined by a relentless drive to make a meaningful impact. I am not interested in engineering for its own sake; I want to solve real-world problems.
-
-I am seeking to bring my engineering rigor to a mission-driven organization where technology is used as a force for good. I want to build solutions that matter alongside a team that values technical excellence, pragmatic problem solving, and positive change.
+I’m looking to contribute to a mission-driven team that values thoughtful engineering, clear communication, and steady progress. I do my best work in environments that care about quality but are honest about constraints, and where technology is used to solve meaningful problems, not just interesting ones.
