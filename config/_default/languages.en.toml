@@ -19,5 +19,6 @@ headline = "Backend Software Engineer | Python, Node, Go, APIs, Data & AI | Miss
 bio = "Software Engineer specializing in intelligent backend architecture, AI pipeline integration and EHR (FHIR) data."
 links = [
     { github = "https://github.com/nick-moyer" },
-    { linkedin = "https://www.linkedin.com/in/npmoyer" }
+    { linkedin = "https://www.linkedin.com/in/npmoyer" },
+    { email = "mailto:hello@nickmoyer.dev" },
 ]
