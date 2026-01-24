@@ -43,7 +43,7 @@ jobs:
                       ${{ runner.os }}-hugo-
 
             - name: Build with Hugo
-              run: hugo --gc --minify --enableGitInfo --templateMetrics --buildDate=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+              run: hugo --gc --minify --enableGitInfo --templateMetrics --clock=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v4
