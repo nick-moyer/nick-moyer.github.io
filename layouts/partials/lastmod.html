@@ -1,0 +1,12 @@
+{{ with .GitInfo }}
+<div class="last-updated-badge" title="Verified by GitHub Actions & Cloudflare">
+    <span class="status-dot"></span>
+    <span class="label">Version:</span>
+    <span class="commit">
+        <a href="https://github.com/nickmoyer/nickmoyer.dev/commit/{{ .Hash }}" target="_blank">
+            {{ .AbbreviatedHash }}
+        </a>
+    </span>
+    <span class="date">// {{ $.Lastmod.Format "2006.01.02" }}</span>
+</div>
+{{ end }}

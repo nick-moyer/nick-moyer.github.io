@@ -18,6 +18,11 @@ enableEmoji = true
 
 googleAnalytics = "G-KRLHKMCYKP"
 
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+
 [pagination]
   pagerSize = 100
 
@@ -67,3 +72,4 @@ googleAnalytics = "G-KRLHKMCYKP"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+

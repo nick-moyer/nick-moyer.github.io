@@ -1,0 +1,53 @@
+/* Custom Noir Badge Styling */
+.last-updated-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #18181b; /* Zinc-900 */
+    border: 1px solid #27272a; /* Zinc-800 */
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.75rem;
+    color: #a1a1aa; /* Zinc-400 */
+    transition: border-color 0.2s ease;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.last-updated-badge:hover {
+    border-color: #3f3f46; /* Zinc-700 */
+}
+
+.last-updated-badge .label {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.last-updated-badge .commit a {
+    color: #fafafa; /* Zinc-50 */
+    text-decoration: none;
+    background: #27272a;
+    padding: 1px 4px;
+    border-radius: 2px;
+}
+
+.last-updated-badge .commit a:hover {
+    background: #3f3f46;
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #22c55e; /* Green-500 */
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+}
+
+footer {
+    padding-top: 3rem;     /* Increases the gap between your page content and the footer start */
+    padding-bottom: 3rem;  /* Gives the bottom of the page some air */
+    border-top: 1px solid #27272a; /* Optional: a subtle noir line to separate sections */
+}
