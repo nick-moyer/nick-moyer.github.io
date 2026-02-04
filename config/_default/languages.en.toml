@@ -15,8 +15,8 @@ secondaryLogo = "logo_light.png"
 [params.author]
 name = "Nick Moyer"
 image = "profile.png"
-headline = "Backend Software Engineer | Python, Node, Go, APIs, Data & AI | Mission-driven and always curious"
-bio = "Software Engineer specializing in intelligent backend architecture, AI pipeline integration and EHR (FHIR) data."
+headline = "Backend Software Engineer | Go, Python, Typescript | Healthcare Interoperability (FHIR) | APIs & AI Integration"
+bio = "Software Engineer with a passion for architecting scalable backends, AI-driven automation, and FHIR interoperability."
 links = [
     { github = "https://github.com/nick-moyer" },
     { linkedin = "https://www.linkedin.com/in/npmoyer" },

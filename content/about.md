@@ -5,10 +5,23 @@ showWordCount: false
 showReadingTime: false
 ---
 
-I approach software engineering by breaking problems down to their fundamentals, understanding constraints, and making deliberate tradeoffs. Code that works is expected; what I care about is whether it’s understandable, maintainable, and appropriate for the problem it’s solving.
+### The Engineer
 
-I tend to dig into the "why" behind systems and tools so I can make better decisions and avoid fragile solutions, but I’m also pragmatic. I value shipping, iteration, and aligning technical choices with business needs rather than optimizing in isolation.
+I’m a Backend Software Engineer focused on building efficient, high-performance systems. I specialize in handling data in the complex world of healthcare interoperability. I bridge the gap between raw infrastructure and meaningful data utility.
 
-I’m currently deepening my experience with Go, Python, data engineering, and applied AI, with a focus on building reliable backend systems that support real data and real users. I’m especially interested in work that sits at the intersection of infrastructure and data, where design decisions have long-term impact.
+My philosophy is simple: Pragmatism wins. I love architecture that is optimized for speed and stability, ensuring we ship value without over-engineering the solution.
 
-I’m looking to contribute to a mission-driven team that values thoughtful engineering, clear communication, and steady progress. I do my best work in environments that care about quality but are honest about constraints, and where technology is used to solve meaningful problems, not just interesting ones.
+I thrive in honest environments where the mission is clear, communication is direct, and the focus is on solving meaningful problems for real users.
+
+### The Person
+
+**Hi, I'm Nick.**
+
+When I’m not at the keyboard, I’m usually training for my next marathon, tending to my garden or tinkering with 3D printing and home automation.
+
+I live with my wife, our dog Courage, and a cat named Fluff who supervises all code reviews.
+
+#### Currently...
+* **Reading:** Quantum Supremacy (Kaku) & The Martian (Weir)
+* **Training For:** Milwaukee Marathon (April 2026)
+* **Deep Dive:** Go Internals (Runtime, GC, & Scheduler)
