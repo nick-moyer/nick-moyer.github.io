@@ -7,15 +7,13 @@ showReadingTime: false
 
 ### The Engineer
 
-I’m a Backend Software Engineer focused on building efficient, high-performance systems. I specialize in handling data in the complex world of healthcare interoperability. I bridge the gap between raw infrastructure and meaningful data utility.
+I’m a Backend Software Engineer focused on building efficient, high-performance systems. I specialize in building APIs with Go, Python, and TypeScript, leveraging FHIR and AI to make sense of data in the complex world of healthcare interoperability. 
 
-My philosophy is simple: Pragmatism wins. I love architecture that is optimized for speed and stability, ensuring we ship value without over-engineering the solution.
+I bridge the gap between raw infrastructure and tangible data utility.
 
 I thrive in honest environments where the mission is clear, communication is direct, and the focus is on solving meaningful problems for real users.
 
 ### The Person
-
-**Hi, I'm Nick.**
 
 When I’m not at the keyboard, I’m usually training for my next marathon, tending to my garden or tinkering with 3D printing and home automation.
 
