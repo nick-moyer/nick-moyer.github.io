@@ -16,7 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "Experience & Education"
+  name = "Skills & Experience"
   pageRef = "experience"
   weight = 20
 

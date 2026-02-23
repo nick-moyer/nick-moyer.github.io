@@ -51,3 +51,24 @@ footer {
     padding-bottom: 3rem;  /* Gives the bottom of the page some air */
     border-top: 1px solid #27272a; /* Optional: a subtle noir line to separate sections */
 }
+
+/* Tech Stack Badges Layout */
+.tech-stack-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-stack-badges img {
+    margin: 0 !important;
+    display: block;
+}
+
+/* Job Header for Timeline */
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

@@ -20,5 +20,6 @@ bio = "Software Engineer with a passion for architecting scalable backends, AI-d
 links = [
     { github = "https://github.com/nick-moyer" },
     { linkedin = "https://www.linkedin.com/in/npmoyer" },
+    { bluesky = "https://bsky.app/profile/nickmoyer.dev" },
     { email = "mailto:hello@nickmoyer.dev" },
 ]
