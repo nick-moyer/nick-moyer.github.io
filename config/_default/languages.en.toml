@@ -21,5 +21,6 @@ links = [
     { github = "https://github.com/nick-moyer" },
     { linkedin = "https://www.linkedin.com/in/npmoyer" },
     { bluesky = "https://bsky.app/profile/nickmoyer.dev" },
+    { goodreads = "https://www.goodreads.com/nick-moyer" },
     { email = "mailto:hello@nickmoyer.dev" },
 ]
