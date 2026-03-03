@@ -20,6 +20,6 @@ When I’m not at the keyboard, I’m usually training for my next marathon, ten
 I live with my wife, our dog Courage, and a cat named Fluff who supervises all code reviews.
 
 ### ⚡ Currently...
-* **📖 Reading:** *Quantum Supremacy* by Michio Kaku
+* **📖 Reading:** *Designing Data Intensive Applications* by Martin Kleppmann
 * **👟 Training For:** Milwaukee Marathon (April 2026)
 * **🛠️ Building:** Custom IoT device for monitoring plants
