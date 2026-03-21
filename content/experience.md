@@ -49,6 +49,9 @@ showReadingTime: false
 
 {{< timeline >}}
 
+{{< timelineItem md="true" icon="code" header="Serif Health" badge="Mar 2026 – Present" subheader="Senior Platform Engineer" >}}
+{{< /timelineItem >}}
+
 {{< timelineItem md="true" icon="code" header="Remo Health" badge="Oct 2023 - Dec 2025">}}
 **Impact:** Supported clinical operations through intelligent automation and FHIR-standardized architecture.
 
