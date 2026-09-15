@@ -17,4 +17,4 @@ I thrive in honest environments where the mission is clear, communication is dir
 
 When I’m not at the keyboard, I’m usually training for my next marathon, tending to my garden, or tinkering with 3D printing and home automation.
 
-I live with my wife, our dog Courage, and a cat named Fluff who supervises all code reviews.
+I live with my wife, and a cat named Fluff who supervises all code reviews.

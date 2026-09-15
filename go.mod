@@ -1,5 +1,6 @@
 module github.com/nick-moyer/nick-moyer.github.io
 
-go 1.25
+go 1.27
 
-require github.com/nunocoracao/blowfish/v2 v2.100.0 // indirect
+require github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
+

@@ -28,7 +28,7 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v3
               with:
-                  hugo-version: "latest"
+                  hugo-version: "0.165.0"
                   extended: true
 
             - name: Cache Hugo Modules & Resources
@@ -46,7 +46,7 @@ jobs:
               run: hugo --gc --minify --enableGitInfo --templateMetrics --clock=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v4
+              uses: actions/upload-pages-artifact@v5
               with:
                   path: ./public
 
