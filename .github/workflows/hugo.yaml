@@ -21,9 +21,15 @@ jobs:
             HUGO_CACHEDIR: /tmp/hugo_cache
         steps:
             - name: Checkout
-              uses: actions/checkout@v6
+              uses: actions/checkout@v7
               with:
                   fetch-depth: 0
+
+            - name: Setup Go
+              uses: actions/setup-go@v5
+              with:
+                  go-version: '1.27'
+                  cache: false
 
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v3
@@ -32,7 +38,7 @@ jobs:
                   extended: true
 
             - name: Cache Hugo Modules & Resources
-              uses: actions/cache@v4
+              uses: actions/cache@v6
               with:
                   path: |
                       ${{ env.HUGO_CACHEDIR }}
@@ -59,11 +65,12 @@ jobs:
         steps:
             - name: Deploy to GitHub Pages
               id: deployment
-              uses: actions/deploy-pages@v4
+              uses: actions/deploy-pages@v5
 
             - name: Purge Cloudflare cache
-              uses: jakejarvis/cloudflare-purge-action@master
               if: success() # Only run if deployment succeeded
-              env:
-                  CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-                  CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+              run: |
+                  curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE }}/purge_cache" \
+                  -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_TOKEN }}" \
+                  -H "Content-Type: application/json" \
+                  --data '{"purge_everything":true}'
